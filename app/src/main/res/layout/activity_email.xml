@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/to_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="目标邮箱" />
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="主题" />
+
+    <EditText
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="395dp"
+        android:hint="正文" />
+
+    <EditText
+        android:id="@+id/attachment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="附件路径"
+        android:focusable="false"
+        android:clickable="false" />
+
+    <Button
+        android:id="@+id/attach_button"
+        android:layout_width="43dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_attachment"
+        android:background="@android:color/transparent"
+        android:drawablePadding="8dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp" />
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_send"
+        android:background="@android:color/transparent"
+        android:drawablePadding="8dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp" />
+
+</LinearLayout>

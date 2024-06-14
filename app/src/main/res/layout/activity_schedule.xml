@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- 日程列表 -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/eventRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"/>
+
+        <!-- 日程日期选择 -->
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/eventRecyclerView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"/>
+
+        <!-- 其他控件，如文本输入框、时间选择器和按钮 -->
+        <EditText
+            android:id="@+id/eventEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入日程内容"
+            android:layout_below="@id/datePicker"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:padding="8dp"/>
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/eventEditText"
+            android:layout_marginTop="8dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"/>
+
+        <Button
+            android:id="@+id/addEventButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加事件"
+            android:layout_below="@id/timePicker"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"/>
+
+    </RelativeLayout>
+</ScrollView>

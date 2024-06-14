@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Gassistance</string>
+    <string name="close_button">Close</string>
+    <string name="ad_image_desc">Ad</string>
+    <string-array name="category_array">
+        <item>一般问题</item>
+        <item>数学问题</item>
+        <item>事实查询</item>
+    </string-array>
+</resources>

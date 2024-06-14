@@ -1,0 +1,50 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_reward_author"
+        android:title="打赏作者"
+        app:showAsAction="never"
+        app:actionLayout="@layout/menu_item_layout" />
+    <item
+        android:id="@+id/action_feedback"
+        android:title="反馈"
+        app:showAsAction="never"
+        app:actionLayout="@layout/menu_item_layout" />
+    <item
+        android:id="@+id/action_email"
+        android:title="邮件发送"
+        app:showAsAction="never"
+        app:actionLayout="@layout/menu_item_layout" />
+    <item
+        android:id="@+id/action_socialmedia"
+        android:title="社媒概况"
+        app:showAsAction="never"
+        app:actionLayout="@layout/menu_item_layout" />
+    <item
+        android:id="@+id/action_smart"
+        android:title="智能助手"
+        app:showAsAction="never"
+        app:actionLayout="@layout/menu_item_layout" />
+    <item
+        android:id="@+id/action_share"
+        android:title="分享"
+        app:showAsAction="never"
+        app:actionLayout="@layout/menu_item_layout" />
+    <item
+        android:id="@+id/action_calendar"
+        android:title="日历"
+        app:showAsAction="never"
+        app:actionLayout="@layout/menu_item_layout" />
+    <item
+        android:id="@+id/action_map"
+        android:title="地图"
+        app:showAsAction="never"
+        app:actionLayout="@layout/menu_item_layout" />
+    <item
+        android:id="@+id/action_about"
+        android:title="关于应用"
+        app:showAsAction="never"
+        app:actionLayout="@layout/menu_item_layout" />
+
+
+</menu>

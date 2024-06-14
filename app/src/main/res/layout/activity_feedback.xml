@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedbackActivity">
+
+    <EditText
+        android:id="@+id/feedbackEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入您的反馈，我们将不断为您改进"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/contactInfoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入您的联系方式(邮箱/QQ/微信/手机号)"
+        android:layout_below="@id/feedbackEditText"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contactInfoEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="提交反馈"/>
+
+</RelativeLayout>
